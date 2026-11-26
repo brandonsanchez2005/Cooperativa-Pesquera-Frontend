@@ -1,0 +1,31 @@
+:root {
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  color: #18363b;
+  background: #f4f7f6;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  --ink: #17373d;
+  --muted: #72858a;
+  --sea: #14545d;
+  --sea-dark: #103b43;
+  --teal: #27868a;
+  --pale: #e4f1ef;
+  --line: #e5ecea;
+  --surface: #fff;
+  --sand: #f0b66b;
+  --shadow: 0 12px 32px rgba(22, 58, 64, .055);
+}
+
+* { box-sizing: border-box; }
+body { margin: 0; min-width: 320px; min-height: 100vh; background: #f4f7f6; color: var(--ink); }
+button, input, select, textarea { font: inherit; }
+a { color: inherit; }
+.text-sea { color: var(--sea) !important; }
+.btn-sea { background: var(--sea); border-color: var(--sea); color: #fff; font-weight: 650; }
+.btn-sea:hover, .btn-sea:focus { color: #fff; background: #0e4149; border-color: #0e4149; }
+.btn-outline-sea { color: var(--sea); border-color: #bfd2d1; background: #fff; font-weight: 600; }
+.btn-outline-sea:hover { color: #fff; background: var(--sea); border-color: var(--sea); }
+.btn-outline-muted { border-color: #d8e2e0; color: #526c70; background: #fff; }
+.btn-outline-muted:hover:not(:disabled) { border-color: #9bb9b7; color: var(--sea-dark); background: #f4f9f8; }
+.form-control:focus, .form-select:focus { border-color: #6ba8a6; box-shadow: 0 0 0 .2rem rgba(39, 134, 138, .13); }
+.required-mark { color: #cf7355; }
